@@ -6,7 +6,7 @@
     "start": "node_modules/react-native/packager/packager.sh"
   },
   "dependencies": {
-    "getmycrew-node": "^1.1.1",
+    "getmycrew-node": "^1.1.5",
     "http": "0.0.0",
     "node-rest-client": "^1.5.1",
     "react-native": "^0.11.0"
