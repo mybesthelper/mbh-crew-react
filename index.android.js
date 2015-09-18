@@ -5,8 +5,7 @@
 'use strict';
 
 var React = require('react-native');
-
-var Styles = require('./Styles');
+var styles = require('./styles');
 
 var {
   AppRegistry,
@@ -32,7 +31,5 @@ var MyCrew = React.createClass({
     );
   }
 });
-
-var styles = Styles;
 
 AppRegistry.registerComponent('MyCrew', () => MyCrew);
