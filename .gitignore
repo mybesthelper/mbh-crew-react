@@ -22,6 +22,10 @@ DerivedData
 *.xcuserstate
 project.xcworkspace
 
+# Android
+#
+android/.gradle/
+
 # node.js
 #
 node_modules/
