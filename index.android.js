@@ -10,7 +10,6 @@ var Styles = require('./Styles');
 
 var {
   AppRegistry,
-  StyleSheet,
   Text,
   View,
 } = React;
