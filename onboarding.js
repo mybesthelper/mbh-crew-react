@@ -16,7 +16,7 @@ var {
   height
 } = Dimensions.get("window");
 
-var Carousel = require("react-native-carousel");
+var Carousel = require("./Carousel");
 
 var styles = StyleSheet.create({
   container: {
