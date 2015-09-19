@@ -1,6 +1,7 @@
 'use strict';
 
 var React = require("react-native");
+var TaskList = require('./TaskList');
 
 var {
   AppRegistry,
@@ -63,7 +64,7 @@ var Login = React.createClass({
     return (
       <View>
         <Onboarding />
-        <TouchableOpacity activeOpacity={0.8} style={styles.blueButton}>
+        <TouchableOpacity activeOpacity={0.8} style={styles.blueButton} onPress={() => this.props.navigator.push({component: TaskList})}>
           <Text style={[styles.whiteText, styles.smallText]}>Login with Google</Text>
         </TouchableOpacity>
         <TouchableOpacity activeOpacity={0.5} style={[styles.transparentButton, styles.leftHalfButton]}>

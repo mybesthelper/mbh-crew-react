@@ -5,23 +5,30 @@
 'use strict';
 
 var React = require('react-native');
-var styles = require('./styles');
 
-var Login = require('./login');
+var Styles = require('./Styles');
+var Button = require('./Button');
+var TaskList = require('./TaskList');
+var Nav = require('./Navigator');
+
 
 var {
   AppRegistry,
-  StyleSheet,
   Text,
   View,
+  Image,
+  ListView,
 } = React;
 
 var MyCrew = React.createClass({
-  render: function() {
+  render() {
     return (
-      <Login />
-    );
+        <Nav />
+      )
   }
 });
 
+var styles = Styles;
+
 AppRegistry.registerComponent('MyCrew', () => MyCrew);
+
