@@ -39,7 +39,7 @@ var styles = StyleSheet.create({
   },
 
   rightHalfButton: {
-    bottom: 173,
+    bottom: 175,
     left: width / 2
   },
 
