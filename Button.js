@@ -15,7 +15,7 @@ var button = React.createClass({
     return {text: '+'};
   },
   buttonClicked: function() {
-    console.log(this.props.text);
+
   },
   render: function() {
     return (

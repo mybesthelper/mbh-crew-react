@@ -16,44 +16,48 @@ var styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#FFF',
+    marginBottom: 5,
+    paddingTop: 20,
+    paddingBottom: 20,
   },
   rightContainer: {
-    flex: 1,
+    flex: 4,
     backgroundColor: '#FFF',
-    marginBottom: 2,
   },
   leftContainer: {
+    flex: 1,
     marginLeft: 5,
   },
   title: {
-    fontSize: 20,
+    fontSize: 18,
     marginBottom: 8,
-    textAlign: 'center',
-  },
-  year: {
-    textAlign: 'center',
-  },
-  thumbnail: {
-    width: 53,
-    height: 81,
+    textAlign: 'left',
   },
   listView: {
     paddingTop: 20,
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#F6F6F6',
   },
   header: {
-    height: 50,
-    width: 100,
+    height: 60,
+    paddingTop: 5,
+    backgroundColor: '#3666C6',
+  },
+  headerText: {
+    color: '#FFFFFF',
+    textAlign: 'center',
+    fontSize: 20,
   },
   button: {
     backgroundColor: '#3666C6',
     height: 50,
     width: 50,
-    shadowRadius: 2,
-    shadowOffset: {width:0, height:2},
-    shadowOpacity: 0.7,
     borderRadius: 50,
-    shadowColor: 'black',
+    position: 'absolute',
+    top: 500,
+    right: 15,
+    shadowColor: '#222',
+    shadowOffset: {width: 55, height: 55},
+    shadowOpacity: 1,
   },
   buttonText: {
     transform: [{translateY: -12}],
@@ -62,6 +66,26 @@ var styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 50,
   },
+  time: {
+    fontWeight: 'bold'
+  },
+  boldTitle: {
+    fontSize: 20,
+    marginBottom: 8,
+    textAlign: 'center',
+    fontWeight: 'bold'
+  },
+  urgent: {
+    fontSize: 20,
+    marginBottom: 8,
+    textAlign: 'center',
+    fontWeight: 'bold',
+    color: '#DE6363'
+  },
+  menu: {
+    height: 24,
+    width: 24,
+  }
 });
 
 module.exports = styles;
